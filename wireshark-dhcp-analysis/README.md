@@ -4,17 +4,17 @@
 
 ### Objective
 
-Analyze a DHCP packet capture using Wireshark to understand the DHCP address assignment process and identify relevant network information.
+Analyze DHCP traffic using Wireshark to understand the dynamic IP address assignment process and identify relevant network information.
 
 ### Tools and Resources
 
 - **Wireshark:** Network protocol analyzer.
-- **Capture file:** `dhcp.pcapng`.
+- **Capture file:** `dhcp.pcapng` (used locally for analysis).
 - **Data source:** [Wireshark Sample Captures](https://wiki.wireshark.org/SampleCaptures).
 
 ### Analysis
 
-The capture was inspected to identify DHCP messages and examine their protocol fields.
+The capture was inspected to identify DHCP messages and examine relevant protocol fields.
 
 The following messages were observed:
 
@@ -42,7 +42,7 @@ Therefore, the capture does not establish that all four messages belong to the s
 
 ### Key Findings
 
-The capture illustrates how DHCP messages are used during dynamic network configuration. The observed IP addresses belong to the sample capture and do not necessarily represent the analyst's actual network.
+The capture illustrates how DHCP messages support dynamic network configuration. The observed IP addresses belong to the sample capture and do not necessarily represent the analyst's actual network.
 
 The differing transaction IDs highlight the importance of correlating packet fields before drawing conclusions about a network exchange.
 
@@ -58,7 +58,7 @@ Screenshots documenting the packet overview and the details of the DHCP Discover
 
 The `dhcp.pcapng` file was obtained from the [Wireshark Sample Captures](https://wiki.wireshark.org/SampleCaptures) collection and used for educational packet analysis.
 
-The capture is attributed to its original source. Please refer to the source page for applicable terms and redistribution conditions.
+The capture file is not included in this repository. Please consult the original source for applicable licensing and redistribution conditions before redistributing the file.
 
 ---
 
@@ -66,12 +66,12 @@ The capture is attributed to its original source. Please refer to the source pag
 
 ### Objetivo
 
-Analisar uma captura de pacotes DHCP utilizando o Wireshark para compreender o processo de atribuição de endereços IP e identificar informações relevantes da rede.
+Analisar o tráfego DHCP utilizando o Wireshark para compreender o processo de atribuição dinâmica de endereços IP e identificar informações relevantes da rede.
 
 ### Ferramentas e recursos
 
 - **Wireshark:** Analisador de protocolos de rede.
-- **Arquivo de captura:** `dhcp.pcapng`.
+- **Arquivo de captura:** `dhcp.pcapng` (utilizado localmente para análise).
 - **Fonte dos dados:** [Wireshark Sample Captures](https://wiki.wireshark.org/SampleCaptures).
 
 ### Análise
@@ -110,7 +110,7 @@ A diferença entre os identificadores de transação destaca a importância de c
 
 ### Conclusão
 
-Esta atividade proporcionou experiência prática na identificação de mensagens DHCP, na análise de campos de pacotes e na interpretação de identificadores de transação utilizando o Wireshark.
+Esta atividade proporcionou experiência prática na identificação de mensagens DHCP, na análise dos campos dos pacotes e na interpretação de identificadores de transação utilizando o Wireshark.
 
 ### Evidências
 
@@ -120,4 +120,4 @@ As capturas de tela que documentam a visão geral dos pacotes e os detalhes das 
 
 O arquivo `dhcp.pcapng` foi obtido na coleção [Wireshark Sample Captures](https://wiki.wireshark.org/SampleCaptures) e utilizado para análise educacional de pacotes.
 
-A captura é atribuída à sua fonte original. Consulte a página de origem para verificar os termos aplicáveis e as condições de redistribuição.
+O arquivo de captura não está incluído neste repositório. Consulte a fonte original para verificar as condições de licenciamento e redistribuição aplicáveis antes de redistribuir o arquivo.
